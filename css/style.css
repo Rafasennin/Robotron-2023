@@ -131,7 +131,7 @@ main {
     border-color: var(--main-cinza);
 }
 
-.producao {
+.producao, .trocaCor {
     margin-top: 1em;
     font-size: 2em;
     text-transform: uppercase;
@@ -146,6 +146,12 @@ main {
 .producao:hover {
     background: var(--main-preto);
     color: var(--main-branco)
+}
+
+.trocaCor:hover{
+    background: var(--main-preto);
+    color: var(--main-branco)
+
 }
 
 
@@ -207,6 +213,13 @@ main {
     order: 1;
     flex-basis: 35%;
     margin: 10px 0 0;
+}
+
+.trocaCor{
+    position: absolute;
+    left: 250px;
+    top:1px;
+    
 }
 
 @media screen and (max-width: 1600px) {
